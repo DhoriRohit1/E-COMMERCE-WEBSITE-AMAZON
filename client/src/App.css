@@ -1,0 +1,395 @@
+.shine {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: .8;
+    background: linear-gradient(90deg, #000, #ffffff, #000);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Teko', sans-serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 8s linear infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+  
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  #shine1 {
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: .8;
+    background: linear-gradient(90deg, #000, #ffffff, #000);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 8s linear infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+  
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  p a{
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .cancel{
+    text-decoration: none;
+  }
+  .link1{
+   text-decoration: none;
+  }
+  
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name-content {
+  margin-right: 7rem;
+}
+.image1{
+  height: 200px;
+  width: 650px;
+}
+
+.name-content p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+  width: 530px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+  width: 530px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form input {
+  width: 430px;
+  outline: none;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+form input:focus {
+  border: 1.8px solid #FFD814;
+}
+
+form .login {
+  outline: none;
+  border: none;
+  background: #FFD814;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: black;
+}
+
+form .login:hover {
+  background: #f0c14b;
+  cursor: pointer;
+}
+
+form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.8rem;
+  color: #FFD814;
+}
+
+form hr {
+  background: #f7f7f7;
+  margin: 1rem;
+}
+
+form .create-account {
+  outline: none;
+  border: none;
+  background: #06b909;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+}
+
+form .create-account:hover {
+  background: #03ad06;
+  cursor: pointer;
+}
+
+/* //.........Media Query.........// */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+  form input{
+     width: 260px;
+    height: fit-content;
+  }
+  form {
+    width: 300px;
+    height: fit-content;
+  }
+  .form1 {
+    width: 300px;
+    height: fit-content;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  form .login {
+    font-size: 1.5rem;
+  }
+
+  form a {
+    font-size: 1.5rem;
+  }
+
+  form .create-account {
+    font-size: 1.5rem;
+  }
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .image1{
+    height: 100px;
+    width: 325px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  form input{
+    width: 260px;
+   height: fit-content;
+ }
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  form {
+    width: 300px;
+    height: fit-content;
+  }
+  .form1 {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  form .login {
+    font-size: 1.5rem;
+  }
+
+  form a {
+    font-size: 1.5rem;
+  }
+
+  form .create-account {
+    font-size: 1.5rem;
+  }
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .image1{
+    height: 100px;
+    width: 325px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+  form input{
+    width: 260px;
+   height: fit-content;
+ }
+  .name-content {
+    margin: 0;
+    text-align: center;
+  }
+
+  form {
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  form span{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .form1 {
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  .form1 span{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  form input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  form .login {
+    font-size: 1.5rem;
+  }
+
+  form a {
+    font-size: 1.5rem;
+  }
+
+  form .create-account {
+    font-size: 1.5rem;
+  }
+
+  .flex-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (orientation: landscape) and (max-height: 500px) {
+    .header {
+      height: 90vmax;
+    }
+  }
+}
+
+
+.custom-testimonial-slider {
+  background-color: #212529;
+  padding: 3em 2em;
+}
+
+.custom-testimonial-title {
+  color: #fff;
+}
+
+.custom-testimonial-title h2 {
+  padding-left: 0.2em;
+}
+
+.custom-card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+}
+
+.custom-carousel-control-prev,
+.custom-carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  color: #f7f7f7;
+  top: 60%;
+  transform: translateY(-50%);
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+@media (min-width: 576px) {
+  .custom-carousel-item {
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+
+  .custom-carousel-inner {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-carousel-inner {
+    padding: 1em;
+  }
+
+  .custom-carousel-control-prev,
+  .custom-carousel-control-next {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    opacity: 1;
+  }
+
+  .custom-carousel-control-next {
+    left: 4.5em;
+  }
+}
